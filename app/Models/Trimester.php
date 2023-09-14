@@ -9,6 +9,9 @@ class Trimester extends Model
 {
     use HasFactory;
 
+    protected $table = 'trimester';
+
+
     protected $fillable = ['math_grade', 'science_grade', 'history_grade', 'language_grade', 'quaterly_id'];
 
     public function quaterly()

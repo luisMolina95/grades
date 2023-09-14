@@ -10,6 +10,8 @@ class Quaterly extends Model
 {
     use HasFactory;
 
+    protected $table = 'quaterly';
+
     protected $fillable = ['average', 'student_id'];
 
     public function student()
